@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1593569635519,3557,POST - Criar Pet,200,OK,Teste de API - PetStore 1-1,text,true,,503,436,1,1,https://petstore.swagger.io/v2/pet,3555,0,3428
+1593569640032,116,GET- Buscar Pet,200,OK,Teste de API - PetStore 1-1,text,true,,503,188,1,1,https://petstore.swagger.io/v2/pet/300208,116,0,0
+1593569640149,117,PUT - Atualizar Pet,200,OK,Teste de API - PetStore 1-1,text,true,,491,428,1,1,https://petstore.swagger.io/v2/pet,117,0,0
+1593569640280,112,GET- Buscar Pet Atualizado,200,OK,Teste de API - PetStore 1-1,text,true,,491,188,1,1,https://petstore.swagger.io/v2/pet/300208,112,0,0
+1593569640393,118,DELETE- Deletar Pet,200,OK,Teste de API - PetStore 1-1,text,true,,385,188,1,1,https://petstore.swagger.io/v2/pet/300208,117,0,0
+1593569635439,5093,Controlador de Transação,200,"Number of samples in transaction : 5, number of failing samples : 0",Teste de API - PetStore 1-1,,true,,2373,1428,1,1,null,4017,0,3428
+1593569640537,0,Debug testador,200,OK,Teste de API - PetStore 1-1,text,true,,355,0,1,1,null,0,0,0
